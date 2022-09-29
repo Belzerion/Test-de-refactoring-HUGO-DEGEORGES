@@ -5,7 +5,7 @@ class GildedRose(object):
     self.items = items
   
   
-  def computeNewItemBackstage(item):
+  def computeNewQualityBackstage(item):
     if item.sell_in < 0:
       return 0
     if item.sell_in < 6:
